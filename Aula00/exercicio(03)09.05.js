@@ -1,0 +1,1 @@
+//exercicio 04)  Faça um programa que leia 3 numeros e mostre se o valor da soma é par ou impar.
