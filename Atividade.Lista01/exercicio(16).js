@@ -6,7 +6,7 @@ let nota04 = 80;
 media = (nota01 + nota02 + nota03 + nota04 ) / 4 ; 
 
 if (media >= 60) {
-    console.log(" A nota é:", media, "o aluno estaaprovado!");
+    console.log(" A nota é:", media, "o aluno esta aprovado!");
     
 }
 if (media <40) {
