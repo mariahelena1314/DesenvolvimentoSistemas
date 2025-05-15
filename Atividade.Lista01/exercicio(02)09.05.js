@@ -1,4 +1,4 @@
-// exercicio 02) Faça um programa que leia um numero e mostre s eele é par ou impar.
+// exercicio 02) Faça um programa que leia um numero e mostre se ele é par ou impar.
 
 let n1 = 44
 

@@ -5,18 +5,15 @@ let n2 = 8;
 let n3 = 9;
 let menor;
 
-if ( n1 < n2 ) {
+if(n1 < n2){
     menor = n1;
 }
-
 else {
     menor = n2;
 }
 
-if ( n3 < menor){
+if( n3 < menor){
     menor = n3;
 }
 
-console.log(`o menor nuemro é: ${menor}`);
-
-
+console.log(` O menor número é: ${menor}`);

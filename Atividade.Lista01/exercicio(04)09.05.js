@@ -1,4 +1,4 @@
-//exercicio 03)  Faça um programa que leia 3 numeros e mostre se o valor da soma é par ou impar.
+//exercicio 04)  Faça um programa que leia 3 numeros e mostre se o valor da soma é par ou impar.
 
 let n1 = 3;
 let n2 = 2;

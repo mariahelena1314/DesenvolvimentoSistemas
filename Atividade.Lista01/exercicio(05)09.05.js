@@ -1,4 +1,4 @@
-//exercicio 04) Faça um programa que leia um numero e mostre se ele é positivo ou negativo.
+//exercicio 05) Faça um programa que leia um numero e mostre se ele é positivo ou negativo.
 
 let n1 = -4;
 
