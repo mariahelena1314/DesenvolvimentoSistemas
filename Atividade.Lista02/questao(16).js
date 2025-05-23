@@ -2,8 +2,9 @@
 //  bruto, descontos e o salário líquido.
 
 
-function salarioLiquido ( salarioBruto){
+function salarioLiquido ( salarioBruto ){
     let desconto = 0;
+
     if ( salarioBruto  <= 1518.00 ){
        desconto =   salarioBruto * 0.05
     }
@@ -13,13 +14,14 @@ function salarioLiquido ( salarioBruto){
     if ( salarioBruto <= 3751.05 ){
          desconto =  salarioBruto * 0.15
     }
-    if ( salario > 3751.05 ){
+    if ( salarioBruto > 3751.05 ){
        desconto =  salarioBruto * 0.275 
     }
     let salarioLiquido = salarioBruto - desconto
     
 }
-console.log(salarioBruto("o salario foi: " + salarioBruto));
+console.log(salarioBruto("o salario foi: " + salarioBruto ));
 console.log(desconto (" o desconto foi: " + desconto));
 console.log((" o salario liquido foi :" + salarioLiquido));
 
+// tentei fazer, mas sempre aparece esse erro e meu raciocinio ja nao sabe o que fazer!
