@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+      <b>05</b>
+        Faça um programa que leia n números do usuário até que se digite o valor 0 e em seguida exiba a soma desses numeros
+    </p>
+    <script>
+      let soma = 0;
+     while (true) {
+        let n = Number(Prompt("Digite um número:")); 
+        if (n === 0){
+            // interrompe a execução 
+            break;
+        }
+        soma += n; 
+     }
+      document.writeln(`<h1>Total: ${soma}</h1>`);   
+    </script>
+</body>
+</html>
