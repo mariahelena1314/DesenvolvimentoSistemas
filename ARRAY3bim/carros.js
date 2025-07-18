@@ -31,5 +31,10 @@ console.log();
 
 }
 
+// ARRAY (vetor)
+// estrutura de dados 
+// mutavel
+// heterogenêa
+
 
 
