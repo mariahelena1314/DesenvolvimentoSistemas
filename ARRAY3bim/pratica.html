@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>calculadora</title>
+</head>
+<body>
+    <h2>Soma de dois números</h2>
+
+    <form action="">
+        numero 1:
+        <input type="numeber" id="n1" required>
+        <br><br>
+
+        numero 2:
+        <input type="numeber" id="n2" required>
+        <br><br>
+
+        <button type="button" onclick="somar()">Calcular</button>
+
+    </form>
+
+    <h1 id="resultado"></h1>
+
+    <script>
+        function somar(){
+            // obter os valores de entrada
+            let num1 = parseFloat(document.querySelector('#n1').value);
+            let num2 = parseFloat(document.querySelector('#n2').value);
+            let soma = num1 + num2;
+
+        document.querySelector('#resultado').innerHTML = 
+        `A soma é ${soma}`;      
+      }
+    </script>
+</body>
+</html>

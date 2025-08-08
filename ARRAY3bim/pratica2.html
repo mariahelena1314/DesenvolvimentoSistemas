@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>calculadora</title>
+</head>
+<body>
+    <h2>Subtração de dois números</h2>
+
+    <form action="">
+        numero 1:
+        <input type="numeber" id="n1" required>
+        <br><br>
+
+        numero 2:
+        <input type="numeber" id="n2" required>
+        <br><br>
+
+        <button type="button" onclick="subtrair()">Calcular</button>
+
+    </form>
+
+    <h1 id="resultado"></h1>
+
+    <script>
+        function subtrair(){
+            // obter os valores de entrada
+            let num1 = parseFloat(document.querySelector('#n1').value);
+            let num2 = parseFloat(document.querySelector('#n2').value);
+            let subtrair = num1 - num2;
+
+        document.querySelector('#resultado').innerHTML = 
+        `A subtração é ${subtrair}`;      
+      }
+    </script>
+</body>
+</html>

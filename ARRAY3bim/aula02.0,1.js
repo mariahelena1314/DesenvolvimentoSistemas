@@ -2,7 +2,7 @@ let alunos = ['felipe' , 'gabriel' , 'klara' , 'livia'];
 
 alunos = alunos.sort();
 
-for( let i = 0; i < alunos.lenght; i++)  {
+for( let i = 0; i < alunos.length; i++)  {
 
  console.log('* ' + alunos[i].toUpperCase());
 }
