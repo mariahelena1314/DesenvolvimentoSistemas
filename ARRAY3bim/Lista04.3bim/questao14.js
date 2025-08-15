@@ -2,5 +2,8 @@
 
 let nomes = [ "lucas" , "maria" , "livia"];
 
-let existenome = nomes.includes("maria")
+let existenome = nomes.includes("joao");
+
+console.log(existenome);
+
 
