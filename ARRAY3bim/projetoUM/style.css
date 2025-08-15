@@ -1,19 +1,20 @@
-body{
-    background-color: #555;
+body {
+    background-color: rgb(119, 119, 120);
 }
 
-h2{
+h2 {
     text-align: center;
-    color: #fefefe;
+    color: rgb(253, 253, 253);
     text-decoration: underline;
-    text-underline-offset:8px ;
+    text-underline-offset: 8px;
 }
-#numero{
+
+#numero {
     font-size: 16px;
     padding-inline: 8px;
     padding-block: 4px;
     text-align: center;
-     outline: none;
+
 }
 
 #btnAdicionar{
@@ -26,7 +27,7 @@ h2{
    
 }
 
-#btnAdicionar:hover{
+#btnAdicionar:hover {
     background-color: yellowgreen;
     cursor: pointer;
 }
@@ -35,3 +36,35 @@ h2{
     background-color: red;
     color: white;
 }
+
+#btnRemover{
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#btnRemover:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+#exibir-array{
+    background-color: red;
+    color: white;
+}
+
+#numero1 {
+    font-size: 16px;
+    padding-inline: 8px;
+    padding-block: 4px;
+    text-align: center;
+
+}
+
+
+
+
